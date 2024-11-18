@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josef\\fikmat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|c:\\users\\josef\\fikmat\\assets\\2d dissolve pack free\\scripts\\dissolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\2d dissolve pack free\\scripts\\dissolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|c:\\users\\josef\\fikmat\\assets\\redbuttonobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\redbuttonobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\uis\\uiscripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\uis\\uiscripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\uis\\uiscripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\uis\\uiscripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\example\\initializers\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\example\\initializers\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\utilities\\inputmanager\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\inputmanager\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|C:\\Users\\josef\\fikmat\\assets\\scenetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8180BB1-5E7F-936D-53FC-DED04D0D26DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scenetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dissolve.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\2D Dissolve Pack Free\\Scripts\\Dissolve.cs",
+              "RelativeDocumentMoniker": "Assets\\2D Dissolve Pack Free\\Scripts\\Dissolve.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\2D Dissolve Pack Free\\Scripts\\Dissolve.cs",
+              "RelativeToolTip": "Assets\\2D Dissolve Pack Free\\Scripts\\Dissolve.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:11:21.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamePlayLogic.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\GamePlayLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\GamePlayLogic.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\GamePlayLogic.cs",
+              "RelativeToolTip": "Assets\\GamePlayLogic.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:29:12.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartScreenLogic.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\StartScreenLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\StartScreenLogic.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\StartScreenLogic.cs",
+              "RelativeToolTip": "Assets\\StartScreenLogic.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:35:26.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedButtonObserver.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\RedButtonObserver.cs",
+              "RelativeDocumentMoniker": "Assets\\RedButtonObserver.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\RedButtonObserver.cs",
+              "RelativeToolTip": "Assets\\RedButtonObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:10:55.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenuInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:52:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwGYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:38:33.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UImanager.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:06:09.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\UIs\\UIscripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\UIs\\UIscripts\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\UIs\\UIscripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\UIs\\UIscripts\\PauseMenu.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAA2wHMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:59:02.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\UIs\\UIscripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\UIs\\UIscripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\UIs\\UIscripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\UIs\\UIscripts\\MainMenu.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:58:21.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Example\\Initializers\\GameInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Example\\Initializers\\GameInitializer.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\JosephBear-Template\\Example\\Initializers\\GameInitializer.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Example\\Initializers\\GameInitializer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:56:55.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SceneType.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\fikmat\\Assets\\SceneType.cs",
+              "RelativeDocumentMoniker": "Assets\\SceneType.cs",
+              "ToolTip": "C:\\Users\\josef\\fikmat\\Assets\\SceneType.cs",
+              "RelativeToolTip": "Assets\\SceneType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:56:30.806Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

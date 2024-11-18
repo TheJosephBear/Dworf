@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - pickUp
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 1058365555
+    locked: 0
+  - name: Object
+    uniqueID: 3012615305
+    locked: 0
+  - name: TopLayer
+    uniqueID: 3296376459
+    locked: 0
+  - name: TopLayerObject
+    uniqueID: 3750239631
+    locked: 0
+  - name: UI
+    uniqueID: 1137436979
+    locked: 0
+  - name: wrongresoverlay
+    uniqueID: 3248361745
+    locked: 0

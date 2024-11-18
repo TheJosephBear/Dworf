@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &57532347166535604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57532347166535602}
+  - component: {fileID: 57532347166535605}
+  m_Layer: 0
+  m_Name: ScreenEffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &57532347166535602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57532347166535604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 240, y: 978, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &57532347166535605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57532347166535604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc260551c6340474fa2c7bc0449125e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProfileSixdShake: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  ProfileSixdWobble: {fileID: 11400000, guid: e9ce97b7a206dc64d90931ea044e0c72, type: 2}
+  ProfileHandheldNormalMild: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd,
+    type: 2}
+  ProfileHandheldNormalStrong: {fileID: 11400000, guid: b241f91b9ccf8ff489abf204b30d3112,
+    type: 2}
+  ProfileHandheldNormalExtreme: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530,
+    type: 2}
+  ProfileHandheldTeleMild: {fileID: 11400000, guid: a3dacaec0287d7444b4bd276816e1666,
+    type: 2}
+  ProfileHandheldTeleStrong: {fileID: 11400000, guid: 554b0ed52734c154eab51f6cedd3a7d7,
+    type: 2}
+  ProfileHandheldWideAngleMild: {fileID: 11400000, guid: 8608ec81ee27a15488d33f9dad239e91,
+    type: 2}
+  ProfileHandheldWideAngleStrong: {fileID: 11400000, guid: 20e46be82478fa24b90f748044c06b4b,
+    type: 2}
