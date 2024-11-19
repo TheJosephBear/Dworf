@@ -89,7 +89,8 @@ public enum UIType {
     AlertBox,
     HUD,
     Settings,
-    LoadingScreen
+    LoadingScreen,
+    GameOverScreen
 }
 
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Its called main menu initializer, however it initializes the gameplay, dont mind the name.
 public class MainMenuInitializer : MonoBehaviour, Iinitializer {
 
     // Deactivating all objects in the scene is only one of the possible approaches
@@ -20,9 +21,6 @@ public class MainMenuInitializer : MonoBehaviour, Iinitializer {
             obj.SetActive(true);
         }
         FindAnyObjectByType<StartScreenLogic>().EnterTheScreen();
-        /*
-        UImanager.Instance.ShowUI(UIType.MainMenu);
-        GameManager.Instance.ChangeGameState(GameState.MainMenu);*/
     }
 
     public void Unload() {
