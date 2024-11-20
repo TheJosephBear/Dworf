@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface Ipickup {
-   public void PickedUp(PlayerObject player) {
+   public void PickedUp(Player player) {
 
     }
 }

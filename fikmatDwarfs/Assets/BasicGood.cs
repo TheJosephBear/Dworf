@@ -8,10 +8,11 @@ public class BasicGood : MonoBehaviour, Ipickup {
     public float screenShakeStrength = 5f;
 
     bool pickedUp = false;
-    public void PickedUp(PlayerObject player) {
+
+    public void PickedUp(Player player) {
         if (pickedUp) return;
         AudioManager.Instance.PlaySound(SoundType.click_scifi);
-        player.GainScore(ScoreAmountGained);
+        player.IncreaseScore(ScoreAmountGained);
         Instantiate(particleEffect, transform.position, Quaternion.identity);
         ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, screenShakeStrength, screenShakeStrength, 0.2f);
         Destroy(gameObject);

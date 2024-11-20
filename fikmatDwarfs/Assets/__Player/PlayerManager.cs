@@ -22,7 +22,7 @@ public class PlayerManager : Singleton<PlayerManager> {
                 PlayerSelectLogic.Instance.ConfirmSelection(true);
                 break;
             case GameState.GamePlay:
-                PlayerOne.PlayerCharacter.CastBasePower();
+                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().CastBasePower();
                 break;
             case GameState.GameOver:
 
@@ -41,7 +41,7 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                PlayerOne.PlayerCharacter.CastSpecialPower();
+                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().CastSpecialPower();
 
                 break;
             case GameState.GameOver:
@@ -64,7 +64,7 @@ public class PlayerManager : Singleton<PlayerManager> {
                 PlayerSelectLogic.Instance.ChangePlayerCharacter(true, next);
                 break;
             case GameState.GamePlay:
-                PlayerOne.PlayerCharacter.Move(moveInput);
+                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().Move(moveInput);
 
                 break;
             case GameState.GameOver:
@@ -86,7 +86,7 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                PlayerTwo.PlayerCharacter.CastBasePower();
+                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().CastBasePower();
 
                 break;
             case GameState.GameOver:
@@ -107,7 +107,7 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                PlayerTwo.PlayerCharacter.CastSpecialPower();
+                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().CastSpecialPower();
 
                 break;
             case GameState.GameOver:
@@ -127,10 +127,10 @@ public class PlayerManager : Singleton<PlayerManager> {
                 bool next = false;
                 if (moveInput.x > 0) next = true;
                 if (moveInput.x < 0) next = false;
-                PlayerSelectLogic.Instance.ChangePlayerCharacter(true, next);
+                PlayerSelectLogic.Instance.ChangePlayerCharacter(false, next);
                 break;
             case GameState.GamePlay:
-                PlayerTwo.PlayerCharacter.Move(moveInput);
+                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().Move(moveInput);
 
                 break;
             case GameState.GameOver:

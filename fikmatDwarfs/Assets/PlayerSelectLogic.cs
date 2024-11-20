@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
     public GameObject selectingUI;
@@ -11,7 +12,7 @@ public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
     GameObject p1SelectSpriteInstantiated;
     GameObject p2SelectSpriteInstantiated;
     int p1selectedCharacterIndex = 0;
-    int p2selectedCharacterIndex = 0;
+    int p2selectedCharacterIndex = 1;
 
     protected override void Awake() {
         base.Awake();
@@ -21,7 +22,7 @@ public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
 
     public void Initialize() {
         GameManager.Instance.ChangeGameState(GameState.PlayerSelect);
-        selectingUI.SetActive(true); 
+        selectingUI.SetActive(true);
         // default characters
         PlayerManager.Instance.PlayerOne.PlayerCharacter = PlayerManager.Instance.characterList[p1selectedCharacterIndex];
         ChangePlayerSprite(true);
@@ -37,139 +38,72 @@ public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
     public void ChangePlayerCharacter(bool playerOne, bool next) {
         // Add time out for each player because it can be called continuosly
         if (playerOne) {
-            if (next) {
-                p1selectedCharacterIndex++;
-            } else {
-                p1selectedCharacterIndex--;
-            }
+            p1selectedCharacterIndex = CalculateIndex(playerOne, next);
             PlayerManager.Instance.PlayerOne.PlayerCharacter = PlayerManager.Instance.characterList[p1selectedCharacterIndex];
             ChangePlayerSprite(playerOne);
         } else {
-            if (next) {
-                p2selectedCharacterIndex++;
-            } else {
-                p2selectedCharacterIndex--;
-            }
+            p2selectedCharacterIndex = CalculateIndex(playerOne, next);
             PlayerManager.Instance.PlayerTwo.PlayerCharacter = PlayerManager.Instance.characterList[p2selectedCharacterIndex];
             ChangePlayerSprite(playerOne);
         }
     }
 
     public void ConfirmSelection(bool playerOne) {
-
+        if (playerOne) {
+            PlayerManager.Instance.PlayerOne.isReady = true;
+        } else {
+            PlayerManager.Instance.PlayerTwo.isReady = true;
+        }
+        // Start countdown if it didnt start already
+        FindAnyObjectByType<StartScreenLogic>().OnPlayerJoin(playerOne);
     }
 
     void ChangePlayerSprite(bool playerOne) {
         if (playerOne) {
+            if (p1SelectSpriteInstantiated != null) Destroy(p1SelectSpriteInstantiated);
             p1SelectSpriteInstantiated = Instantiate(PlayerManager.Instance.PlayerOne.PlayerCharacter.characterSelectSprite, PlayerOneSpriteTransform.position, Quaternion.identity);
         } else {
+            if (p2SelectSpriteInstantiated != null) Destroy(p2SelectSpriteInstantiated);
             p2SelectSpriteInstantiated = Instantiate(PlayerManager.Instance.PlayerTwo.PlayerCharacter.characterSelectSprite, PlayerTwoSpriteTransform.position, Quaternion.identity);
         }
     }
 
-
-    /*
-    void ShowStartUI() {
-        print("ShowStartUI");
-        UtilityUI.Fade(playerJoinUI, true, 0.2f);
-        ShowPlayerMessage(true, "Stiskni èervené tlaèítko");
-        ShowPlayerMessage(false, "Stiskni èervené tlaèítko");
-    }
-
-    void ShowPlayerMessage(bool isPlayerOne, string message) {
-        if (isPlayerOne) {
-            playerOneMessage.text = message;
+    int CalculateIndex(bool playerOne, bool next) {
+        int index = 0;
+        int characterCount = PlayerManager.Instance.characterList.Count;
+        if (playerOne) {
+            index = p1selectedCharacterIndex;
+            if (next) {
+                if (index + 1 > characterCount - 1) {
+                    index = 0;
+                } else {
+                    index += 1;
+                }
+            } else {
+                if (index - 1 < 0) {
+                    index = characterCount - 1;
+                } else {
+                    index -= 1;
+                }
+            }
         } else {
-            playerTwoMessage.text = message;
+            index = p2selectedCharacterIndex;
+            if (next) {
+                if (index + 1 > characterCount - 1) {
+                    index = 0;
+                } else {
+                    index += 1;
+                }
+            } else {
+                if (index - 1 < 0) {
+                    index = characterCount - 1;
+                } else {
+                    index -= 1;
+                }
+            }
         }
+        print("INDEX IS " + index);
+        return index;
     }
 
-    void StartCountdown() {
-        // Start countdown if not already started
-        if (countdownCoroutine == null) {
-            countdownCoroutine = StartCoroutine(CountdownCoroutine());
-        }
-    }
-
-    IEnumerator CountdownCoroutine() {
-        float timeRemaining = countdownTime;
-        while (timeRemaining >= 0) {
-            yield return new WaitForSeconds(1f);
-            countdownText.text = ((int)timeRemaining).ToString();
-            timeRemaining--;
-        }
-
-        // Proceed to start cutscene once countdown ends or both players are ready
-        StartCoroutine(IntroCutscene());
-    }
-
-    IEnumerator IntroCutscene() {
-        print("intro cutscene");
-        playerJoinUI.SetActive(false);
-        // Example animation to move the canvas out of the screen
-
-        // Animate UI u
-        float animationTime = 1f;
-        float elapsedTime = 0f;
-        Vector3 startPosition = playerJoinUI.transform.position;
-
-        while (elapsedTime < animationTime) {
-            //    playerJoinUI.transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime / animationTime);
-            cameraIntro.transform.position = Vector3.Lerp(startPosition, CameraAnimationTarget, elapsedTime / animationTime);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        print("Camera shoupld be looking down");
-
-        // trigger player select HEHERHEHRHERHERHEHRHERHEHREHRHE
-        FindAnyObjectByType<PlayerSelectLogic>().Initialize();
-
-    }
-
-    void OnPlayerJoin(bool isPlayerOne) {
-        if (introPlaying) {
-            SkipIntro();
-            return;
-        }
-
-        ShowPlayerMessage(isPlayerOne, "Pøipraven");
-        if (isPlayerOne) {
-            playerOneJoined = true;
-        } else {
-            playerTwoJoined = true;
-        }
-
-        if (playerOneJoined && playerTwoJoined) {
-            // Both players joined, stop countdown and start cutscene
-            //   StopCoroutine(countdownCoroutine);
-            //   StartCoroutine(IntroCutscene());
-        } else if (playerOneJoined || playerTwoJoined) {
-            // Start countdown when only player one has joined
-            StartCountdown();
-        }
-    }
-
-    void OnEnable() {
-        InputManager.Instance?.SubscribeToAction("SecondaryOne", OnPrimaryOne);
-        InputManager.Instance?.SubscribeToAction("SecondaryTwo", OnPrimaryTwo);
-    }
-
-    void OnDisable() {
-        InputManager.Instance?.UnsubscribeFromAction("SecondaryOne", OnPrimaryOne);
-        InputManager.Instance?.UnsubscribeFromAction("SecondaryTwo", OnPrimaryTwo);
-    }
-
-    void OnPrimaryOne(InputAction.CallbackContext context) {
-        if (context.ReadValue<float>() == 1f && !playerOneJoined) {
-            OnPlayerJoin(true);
-        }
-    }
-
-    void OnPrimaryTwo(InputAction.CallbackContext context) {
-        if (context.ReadValue<float>() == 1f && !playerTwoJoined) {
-            OnPlayerJoin(false);
-        }
-    }
-
-    */
 }

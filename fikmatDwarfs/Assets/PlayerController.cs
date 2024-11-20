@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour {
 
-    PlayerObject PlayerOne;
-    PlayerObject PlayerTwo;
     GamePlayLogic gamePlayLogic;
 
     void Awake() {
@@ -14,8 +12,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void Initialize() {
-        PlayerOne = gamePlayLogic.PlayerOne;
-        PlayerTwo = gamePlayLogic.PlayerTwo;
+
     }
 
     void OnEnable() {

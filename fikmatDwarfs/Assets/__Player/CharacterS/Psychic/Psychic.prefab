@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7014622148299995711}
   - component: {fileID: 7014622148299995710}
   - component: {fileID: 7014622148299995696}
+  - component: {fileID: 429868904616777579}
   m_Layer: 0
   m_Name: Psychic
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,7 +52,7 @@ MonoBehaviour:
   basePowerMeterRegen: 1
   specialPowerMeterMax: 1
   specialPowerMeterRegen: 1
-  characterSelectSprite: {fileID: 4290696227643047576, guid: 6e50882343248174db23dea7dd6749f2, type: 3}
+  characterSelectSprite: {fileID: 3556721292686513055, guid: a52901f13c230a046821395edf61f8de, type: 3}
 --- !u!61 &7014622148299995696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -78,6 +79,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3577642, y: 2.553688}
   m_EdgeRadius: 0
+--- !u!50 &429868904616777579
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014622148299995709}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1001 &6419326370265002786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -145,6 +167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerSprite
       objectReference: {fileID: 0}
+    - target: {fileID: 4169045423298552979, guid: 001c97344c92c524496968ec13e3063a, type: 3}
+      propertyPath: animationSpecial
+      value: 
+      objectReference: {fileID: 22100000, guid: 69d80701d942a2046869678d11a5edce, type: 2}
     - target: {fileID: 4169045423527549060, guid: 001c97344c92c524496968ec13e3063a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0

@@ -23,8 +23,6 @@ public class ThemeManager : MonoBehaviour {
     }
 
     public void PlayTheme(SoundType theme, bool fadeIn = false, float fadeDuration = 1.0f) {
-        print("trying to play theme in theme manager");
-        print("is the thing still loaded? "+ activeThemes.Contains(theme));
         if (!activeThemes.Contains(theme)) {
             activeThemes.Add(theme);
             if (fadeIn) {

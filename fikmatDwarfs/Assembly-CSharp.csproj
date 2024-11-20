@@ -60,9 +60,11 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerObject.cs" />
     <Compile Include="Assets\BasicBad.cs" />
+    <Compile Include="Assets\__Player\PlayerManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\Observer\IObserver.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\SoundBoardEditor.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\ScreenEffectManager\Scripts\ScreenEffectManager.cs" />
+    <Compile Include="Assets\__Player\CharacterSprite.cs" />
     <Compile Include="Assets\JosephBear-Template\Example\LogoScreen.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\UIManager\Scripts\Iui.cs" />
     <Compile Include="Assets\GameResettingManager.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\PlayerStats.cs" />
     <Compile Include="Assets\BasicGood.cs" />
     <Compile Include="Assets\JosephBear-Template\Example\Initializers\GameplayInitializer.cs" />
+    <Compile Include="Assets\__Player\Player.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Example\Initializers\GameInitializer.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SaveManager\Scripts\GameData.cs" />
@@ -112,10 +115,7 @@
     <Compile Include="Assets\JosephBear-Template\Example\Initializers\MainMenuInitializer.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Settings.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\Sound.cs" />
-    <Compile Include="Assets\__Player\Player.cs" />
-    <Compile Include="Assets\__Player\PlayerManager.cs" />
     <Compile Include="Assets\__Player\PlayerCharacter.cs" />
-    <Compile Include="Assets\__Player\CharacterSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
