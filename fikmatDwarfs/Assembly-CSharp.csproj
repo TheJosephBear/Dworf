@@ -111,6 +111,7 @@
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Settings.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\Sound.cs" />
     <Compile Include="Assets\GameOverUI.cs" />
+    <Compile Include="Assets\PlayerSelectLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
