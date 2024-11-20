@@ -91,6 +91,7 @@
     <Compile Include="Assets\Stats.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Fader.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\LoadingScreen.cs" />
+    <Compile Include="Assets\GameOverUI.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\Observer\IObservable.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\DialogueUI.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\AudioManager.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\GeneratedEnum\SoundType.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SaveManager\Scripts\SaveManager.cs" />
     <Compile Include="Assets\PickUpObject.cs" />
+    <Compile Include="Assets\PlayerSelectLogic.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\AudioPauseManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\GameManager\Scripts\GameManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SceneLoadingManager\Scripts\SceneLoadingManager.cs" />
@@ -110,8 +112,10 @@
     <Compile Include="Assets\JosephBear-Template\Example\Initializers\MainMenuInitializer.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Settings.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\Sound.cs" />
-    <Compile Include="Assets\GameOverUI.cs" />
-    <Compile Include="Assets\PlayerSelectLogic.cs" />
+    <Compile Include="Assets\__Player\Player.cs" />
+    <Compile Include="Assets\__Player\PlayerManager.cs" />
+    <Compile Include="Assets\__Player\PlayerCharacter.cs" />
+    <Compile Include="Assets\__Player\CharacterSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

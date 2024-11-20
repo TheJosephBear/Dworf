@@ -2,25 +2,69 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
-
     public GameObject selectingUI;
+    public Transform PlayerOneSpriteTransform;
+    public Transform PlayerTwoSpriteTransform;
+    GameObject p1SelectSpriteInstantiated;
+    GameObject p2SelectSpriteInstantiated;
+    int p1selectedCharacterIndex = 0;
+    int p2selectedCharacterIndex = 0;
 
     protected override void Awake() {
         base.Awake();
-        print("WEEEEEEEEEE WOOOOOOOOOOOO SETTING IT TO FALSE" + selectingUI.name);
+
         selectingUI.SetActive(false);
     }
 
     public void Initialize() {
-        print("Good boy");
-        selectingUI.SetActive(true);
+        GameManager.Instance.ChangeGameState(GameState.PlayerSelect);
+        selectingUI.SetActive(true); 
+        // default characters
+        PlayerManager.Instance.PlayerOne.PlayerCharacter = PlayerManager.Instance.characterList[p1selectedCharacterIndex];
+        ChangePlayerSprite(true);
+        PlayerManager.Instance.PlayerTwo.PlayerCharacter = PlayerManager.Instance.characterList[p2selectedCharacterIndex];
+        ChangePlayerSprite(false);
     }
 
     void StartGame() {
         // Trigger game start
         FindAnyObjectByType<GamePlayLogic>().StartGame();
+    }
+
+    public void ChangePlayerCharacter(bool playerOne, bool next) {
+        // Add time out for each player because it can be called continuosly
+        if (playerOne) {
+            if (next) {
+                p1selectedCharacterIndex++;
+            } else {
+                p1selectedCharacterIndex--;
+            }
+            PlayerManager.Instance.PlayerOne.PlayerCharacter = PlayerManager.Instance.characterList[p1selectedCharacterIndex];
+            ChangePlayerSprite(playerOne);
+        } else {
+            if (next) {
+                p2selectedCharacterIndex++;
+            } else {
+                p2selectedCharacterIndex--;
+            }
+            PlayerManager.Instance.PlayerTwo.PlayerCharacter = PlayerManager.Instance.characterList[p2selectedCharacterIndex];
+            ChangePlayerSprite(playerOne);
+        }
+    }
+
+    public void ConfirmSelection(bool playerOne) {
+
+    }
+
+    void ChangePlayerSprite(bool playerOne) {
+        if (playerOne) {
+            p1SelectSpriteInstantiated = Instantiate(PlayerManager.Instance.PlayerOne.PlayerCharacter.characterSelectSprite, PlayerOneSpriteTransform.position, Quaternion.identity);
+        } else {
+            p2SelectSpriteInstantiated = Instantiate(PlayerManager.Instance.PlayerTwo.PlayerCharacter.characterSelectSprite, PlayerTwoSpriteTransform.position, Quaternion.identity);
+        }
     }
 
 

@@ -83,6 +83,7 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     void ActualGameStart() {
+        GameManager.Instance.ChangeGameState(GameState.GamePlay);
         print("move background");
         backgroundMoving.ToggleMovement(true);
         print("Initialize player controller");

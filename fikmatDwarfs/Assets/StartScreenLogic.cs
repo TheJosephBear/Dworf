@@ -44,7 +44,8 @@ public class StartScreenLogic : MonoBehaviour {
         FindAnyObjectByType<PlayerSelectLogic>().Initialize();
     }
 
-    void SkipIntro() {
+    public void SkipIntro() {
+        if (!introPlaying) return;
         StopCoroutine(introAnimCoroutine);
         introCutscene.time = introCutscene.duration;
         introCutscene.Evaluate();
@@ -54,27 +55,4 @@ public class StartScreenLogic : MonoBehaviour {
         FindAnyObjectByType<PlayerSelectLogic>().Initialize();
     }
 
-    
-
-    void OnEnable() {
-        InputManager.Instance?.SubscribeToAction("SecondaryOne", OnPrimaryOne);
-        InputManager.Instance?.SubscribeToAction("SecondaryTwo", OnPrimaryTwo);
-    }
-
-    void OnDisable() {
-        InputManager.Instance?.UnsubscribeFromAction("SecondaryOne", OnPrimaryOne);
-        InputManager.Instance?.UnsubscribeFromAction("SecondaryTwo", OnPrimaryTwo);
-    }
-
-    void OnPrimaryOne(InputAction.CallbackContext context) {
-        if (context.ReadValue<float>() == 1f && !playerOneJoined) {
-            if (introPlaying) SkipIntro();
-        }
-    }
-
-    void OnPrimaryTwo(InputAction.CallbackContext context) {
-        if (context.ReadValue<float>() == 1f && !playerTwoJoined) {
-            if (introPlaying) SkipIntro();
-        }
-    }
 }

@@ -37,55 +37,59 @@ public class PlayerController : MonoBehaviour {
     }
 
     void OnPrimaryOne(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
+      //  if (!gamePlayLogic.gameStarted) return;
         if (context.performed) {
-            ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, 5f, 5f, 0.2f);
+            //     ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, 5f, 5f, 0.2f);
+            PlayerManager.Instance.OnPrimaryOne();
         }
     }
 
     void OnSecondaryOne(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
+     //   if (!gamePlayLogic.gameStarted) return;
         if (context.performed) {
-            print("secondary pressed");
-            print($"gameover is {gamePlayLogic.gameOver}");
-            if (gamePlayLogic.gameOver) gamePlayLogic.ResetGame();
+            //      if (gamePlayLogic.gameOver) gamePlayLogic.ResetGame();PlayerManager.Instance.
+            PlayerManager.Instance.OnSecondaryOne();
         }
     }
 
     void OnPrimaryTwo(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
+    //    if (!gamePlayLogic.gameStarted) return;
         if (context.performed) {
-            ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, 10f, 10f, 0.2f);
+            //    ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, 10f, 10f, 0.2f);
+            PlayerManager.Instance.OnPrimaryTwo();
         }
     }
 
     void OnSecondaryTwo(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
+    //    if (!gamePlayLogic.gameStarted) return;
         if (context.performed) {
-            if (gamePlayLogic.gameOver) gamePlayLogic.ResetGame();
+            //       if (gamePlayLogic.gameOver) gamePlayLogic.ResetGame();
+            PlayerManager.Instance.OnSecondaryTwo();
         }
     }
 
     void OnMoveOne(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
-        Vector2 moveDirectionOne;
+  //      if (!gamePlayLogic.gameStarted) return;
+        Vector2 moveDirectionOne = new Vector2(0,0);
         if (context.performed) {
             moveDirectionOne = context.ReadValue<Vector2>();
         } else if (context.canceled) {
             moveDirectionOne = Vector2.zero;
         }
-        PlayerOne.Move(context.ReadValue<Vector2>());
+        //    PlayerOne.Move(context.ReadValue<Vector2>());
+        PlayerManager.Instance.OnMoveOne(moveDirectionOne);
     }
 
     void OnMoveTwo(InputAction.CallbackContext context) {
-        if (!gamePlayLogic.gameStarted) return;
+    //    if (!gamePlayLogic.gameStarted) return;
 
-        Vector2 moveDirectionTwo;
+        Vector2 moveDirectionTwo = new Vector2(0, 0);
         if (context.performed) {
             moveDirectionTwo = context.ReadValue<Vector2>();
         } else if (context.canceled) {
             moveDirectionTwo = Vector2.zero;
         }
-        PlayerTwo.Move(context.ReadValue<Vector2>());
+    //    PlayerTwo.Move(context.ReadValue<Vector2>());
+        PlayerManager.Instance.OnMoveTwo(moveDirectionTwo);
     }
 }

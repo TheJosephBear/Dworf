@@ -20,7 +20,7 @@ public class GameManager : Singleton<GameManager> {
     }
 
     GameState previousState;
-    GameState currentState;
+    public GameState currentState;
 
     protected override void Awake() {
         base.Awake();
@@ -42,5 +42,7 @@ public enum GameState {
     IntroCutscene,
     ButtonIsPushed,
     SecondChance,
-    GameOver
+    GameOver,
+    PlayerSelect,
+    GamePlay
 }
