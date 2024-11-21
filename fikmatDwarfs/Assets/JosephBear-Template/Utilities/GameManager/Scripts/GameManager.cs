@@ -28,6 +28,7 @@ public class GameManager : Singleton<GameManager> {
 
 
     public void ChangeGameState(GameState state) {
+        print("Gamestate now is "+state.ToString());
         previousState = currentState;
         currentState = state;
         NotifyObservers(currentState);

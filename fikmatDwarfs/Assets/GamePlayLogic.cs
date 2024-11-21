@@ -43,7 +43,6 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
 
 
     public void StartGame() {
-        GameManager.Instance.ChangeGameState(GameState.GamePlay); // delete this...
         // Has to instantialize the players
         CreatePlayerCharacters();
         // play animation of them coming out -> enable the gameplay to start
@@ -69,16 +68,17 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     IEnumerator PlayIntroCutscene() {
+        print("intro gampley cutscene started");
         ThemeManager.Instance.StopAllThemes(true, 2f);
         ThemeManager.Instance.PlayTheme(SoundType.main_theme, true, 1f);
         if (PlayerOneObject != null) PlayerOneObject?.transform.DOMoveY(PlayerOneSpawn.position.y - 5f, introCutsceneSpeed);
-        if(PlayerTwoObject!=null) PlayerTwoObject.transform.DOMoveY(PlayerTwoSpawn.position.y - 5f, introCutsceneSpeed);
+        if (PlayerTwoObject!=null) PlayerTwoObject.transform.DOMoveY(PlayerTwoSpawn.position.y - 5f, introCutsceneSpeed);
         yield return new WaitForSeconds(introCutsceneSpeed);
         ActualGameStart();
     }
 
     void ActualGameStart() {
-
+        print("GameStarted");
         backgroundMoving.ToggleMovement(true);
         UImanager.Instance.ShowUI(UIType.HUD);
         HUDui.Instance?.SetScoreOne(0);
@@ -101,6 +101,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     IEnumerator GameOverCoroutine() {
+        print("gameover coroutine, gameover should be be true if this is called second time" + gameOver);
+        gameStarted = false;
         yield return new WaitForSeconds(.7f);
         gameOver = true;
         GameManager.Instance.ChangeGameState(GameState.GameOver);   
@@ -110,6 +112,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     public void ResetGame() {
+        print("Reset game called");
+        GameManager.Instance.ChangeGameState(GameState.ButtonIsPushed);
         UImanager.Instance.HideUI(UIType.GameOverScreen);
         gameOver = false;
         gameStarted = false;

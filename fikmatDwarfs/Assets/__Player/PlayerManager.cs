@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerManager : Singleton<PlayerManager> {
+public class PlayerManager : MonoBehaviour {
+
+    public static PlayerManager Instance;
 
     public Player PlayerOne;
     public Player PlayerTwo;
     public List<PlayerCharacter> characterList = new List<PlayerCharacter>();
+
+    void Awake() {
+        Instance = this;
+    }
 
 
     #region Input
@@ -22,7 +28,8 @@ public class PlayerManager : Singleton<PlayerManager> {
                 PlayerSelectLogic.Instance.ConfirmSelection(true);
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().CastBasePower();
+                if (GamePlayLogic.Instance.PlayerOneObject == null) return;
+                GamePlayLogic.Instance.PlayerOneObject?.GetComponent<PlayerCharacter>()?.CastBasePower();
                 break;
             case GameState.GameOver:
                 GamePlayLogic.Instance.ResetGame();
@@ -42,7 +49,8 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().CastSpecialPower();
+                if (GamePlayLogic.Instance.PlayerOneObject == null) return;
+                GamePlayLogic.Instance.PlayerOneObject?.GetComponent<PlayerCharacter>()?.CastSpecialPower();
 
                 break;
             case GameState.GameOver:
@@ -66,7 +74,8 @@ public class PlayerManager : Singleton<PlayerManager> {
                 PlayerSelectLogic.Instance.ChangePlayerCharacter(true, next);
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerOneObject.GetComponent<PlayerCharacter>().Move(moveInput);
+                if (GamePlayLogic.Instance.PlayerOneObject == null) return;
+                GamePlayLogic.Instance.PlayerOneObject?.GetComponent<PlayerCharacter>()?.Move(moveInput);
 
                 break;
             case GameState.GameOver:
@@ -88,7 +97,8 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().CastBasePower();
+                if (GamePlayLogic.Instance.PlayerTwoObject == null) return;
+                GamePlayLogic.Instance.PlayerTwoObject?.GetComponent<PlayerCharacter>()?.CastBasePower();
 
                 break;
             case GameState.GameOver:
@@ -109,7 +119,8 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().CastSpecialPower();
+                if (GamePlayLogic.Instance.PlayerTwoObject == null) return;
+                GamePlayLogic.Instance.PlayerTwoObject?.GetComponent<PlayerCharacter>()?.CastSpecialPower();
 
                 break;
             case GameState.GameOver:
@@ -132,7 +143,8 @@ public class PlayerManager : Singleton<PlayerManager> {
                 PlayerSelectLogic.Instance.ChangePlayerCharacter(false, next);
                 break;
             case GameState.GamePlay:
-                GamePlayLogic.Instance.PlayerTwoObject.GetComponent<PlayerCharacter>().Move(moveInput);
+                if (GamePlayLogic.Instance.PlayerTwoObject == null) return;
+                GamePlayLogic.Instance.PlayerTwoObject?.GetComponent<PlayerCharacter>()?.Move(moveInput);
 
                 break;
             case GameState.GameOver:

@@ -8,6 +8,7 @@ public class GameResettingManager : Singleton<GameResettingManager> {
     }
 
     IEnumerator ResetCoroutine() {
+        GameManager.Instance.ChangeGameState(GameState.ButtonIsPushed);
         var loadTask = SceneLoadingManager.Instance.ResetSceneAsync(SceneType.MainMenu, 0f);
         yield return new WaitUntil(() => loadTask.IsCompleted);
         if (loadTask.Result) {

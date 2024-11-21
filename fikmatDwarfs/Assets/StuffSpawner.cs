@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StuffSpawner : MonoBehaviour {
 
@@ -25,6 +27,8 @@ public class StuffSpawner : MonoBehaviour {
     }
 
     void Update() {
+        MoveAndCleanupSpawnedObjects();
+
         if (!GamePlayLogic.Instance.gameStarted || GamePlayLogic.Instance.gameOver) {
             if (GamePlayLogic.Instance.gameOver) {
                 ClearAllSpawnedObjects();
@@ -40,11 +44,11 @@ public class StuffSpawner : MonoBehaviour {
             nextSpawnTime = Time.time + spawnInterval;
         }
 
-        MoveAndCleanupSpawnedObjects();
     }
 
     public void SpawnObjectToMoveWithWall(GameObject go, Vector3 position) {
-        GameObject spawnedObject = Instantiate(go, position, Quaternion.Euler(0, 0, Random.Range(0f, 360f)));
+        GameObject spawnedObject = SceneLoadingManager.Instance.InstantiateObjectInScene(go, position, SceneType.MainMenu);
+        spawnedObject.transform.rotation = Quaternion.Euler(0, 0, Random.Range(0f, 360f));
 
         spawnedObjects.Add(spawnedObject);
         spawnTimes.Add(Time.time);

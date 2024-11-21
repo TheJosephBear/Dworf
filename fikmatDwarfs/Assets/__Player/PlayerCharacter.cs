@@ -103,7 +103,7 @@ public class PlayerCharacter : MonoBehaviour {
 
     public void Die() {
         isDead = true;
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

@@ -34,7 +34,6 @@ public class AudioManager : MonoBehaviour {
     }
 
     public void PlaySound(SoundType soundType, float fadeInDuration = 0f, Vector3 position = default(Vector3), bool is3D = false) {
-        print("trying to play sum sound");
         Sound sound = SoundBoard.Instance.GetSound(soundType);
         if (sound != null) {
             GameObject soundGameObject = new GameObject("Sound_" + soundType);

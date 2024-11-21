@@ -21,6 +21,8 @@ public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
     }
 
     public void Initialize() {
+        p1selectedCharacterIndex = 0;
+        p2selectedCharacterIndex = 1;
         GameManager.Instance.ChangeGameState(GameState.PlayerSelect);
         selectingUI.SetActive(true);
         // default characters
@@ -104,6 +106,11 @@ public class PlayerSelectLogic : Singleton<PlayerSelectLogic> {
         }
         print("INDEX IS " + index);
         return index;
+    }
+
+    public void DeletePlayerPreviews() {
+        if (p2SelectSpriteInstantiated != null) Destroy(p2SelectSpriteInstantiated);
+        if (p1SelectSpriteInstantiated != null) Destroy(p1SelectSpriteInstantiated);
     }
 
 }

@@ -141,6 +141,7 @@ public class StartScreenLogic : MonoBehaviour {
         // Shutting off the start menu UI
         playerJoinUI.SetActive(false);
 
+        PlayerSelectLogic.Instance.DeletePlayerPreviews();
         // Start game
         GamePlayLogic.Instance.StartGame();
     }

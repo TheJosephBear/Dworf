@@ -51,14 +51,14 @@ public class scoreBoost : MonoBehaviour, IsuperPower {
         isPowerActive = false;
     }
 
-    private void RegenerateMeter() {
+    void RegenerateMeter() {
         if (!isMeterFull) {
             currentMeter = Mathf.Min(currentMeter + meterRegen * Time.deltaTime, meterMax);
         }
     }
 
-    private void OnMeterNotReady() {
-        Debug.Log("Meter is not ready! Please wait for it to recharge.");
+    void OnMeterNotReady() {
+
     }
 
     public float GetMeterPercent() {

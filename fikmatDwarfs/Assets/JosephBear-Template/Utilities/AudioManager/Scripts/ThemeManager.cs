@@ -45,11 +45,9 @@ public class ThemeManager : MonoBehaviour {
     }
 
     public void StopAllThemes(bool fadeOut = false, float fadeDuration = 1.0f) {
-        print("dropping all themes");
         foreach (SoundType theme in new List<SoundType>(activeThemes)) {
             StopTheme(theme, fadeOut, fadeDuration);
         }
-        print("Themes left: "+activeThemes.Count);
     }
 
     public void PauseAllThemes() {
