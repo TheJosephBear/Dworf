@@ -43,6 +43,13 @@ public class StuffSpawner : MonoBehaviour {
         MoveAndCleanupSpawnedObjects();
     }
 
+    public void SpawnObjectToMoveWithWall(GameObject go, Vector3 position) {
+        GameObject spawnedObject = Instantiate(go, position, Quaternion.Euler(0, 0, Random.Range(0f, 360f)));
+
+        spawnedObjects.Add(spawnedObject);
+        spawnTimes.Add(Time.time);
+    }
+
     void AdjustSpawnIntervalBasedOnScore() {
         // Get the player's score
         int score = FindAnyObjectByType<Stats>().GetHigherScore();

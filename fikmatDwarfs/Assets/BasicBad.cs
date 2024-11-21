@@ -7,20 +7,18 @@ public class BasicBad : MonoBehaviour, Ipickup {
     public GameObject particleEffect;
     public float screenShakeStrength = 10f;
     bool pickedUp = false;
-    public void PickedUp(Player player) {
+    public void PickedUp(PlayerCharacter playerCharacter) {
         if (pickedUp) return;
-        StartCoroutine(DeathEffect(player));
+        StartCoroutine(DeathEffect(playerCharacter));
         pickedUp = true;
     }
 
-    IEnumerator DeathEffect(Player player) {
+    IEnumerator DeathEffect(PlayerCharacter playerCharacter) {
         AudioManager.Instance.PlaySound(SoundType.BOMBA);
         Instantiate(particleEffect, transform.position, Quaternion.identity);
         ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, screenShakeStrength, screenShakeStrength, 0.2f);
+        playerCharacter.Die();
         Destroy(gameObject);
-
-
-        //   player.Die();
         yield return null;
         // Start slow-motion effect
         //  Time.timeScale = 0.1f;

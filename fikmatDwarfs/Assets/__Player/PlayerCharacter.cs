@@ -11,22 +11,32 @@ public class PlayerCharacter : MonoBehaviour {
     public float specialPowerMeterMax = 1f;
     public float specialPowerMeterRegen = 1f;
     public GameObject characterSelectSprite;
+    public GameObject diggingEffect; // Permanently at the bottom of the character while digging
+    public GameObject holeImage; // hole left behind while digging
+    public float holeSpawnSpeed = 0.1f;
     public Player playerOwner;
 
     Rigidbody2D rb;
-    bool isDead = false;
-    Vector2 direction;
-    
+    public bool isDead = false;
+    Vector2 direction; 
+    float nextSpawnTime = 0f;
+    StuffSpawner spawner;
+
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
+        spawner = FindAnyObjectByType<StuffSpawner>();
+        ToggleDiggingEffect(false);
     }
 
     void Update() {
         if (isDead) return;
         MoveFr();
         PassiveScoreGain();
+        SpawnHoleEffect();
     }
+
+    #region INPUT public functions
 
     public void CastBasePower() {
 
@@ -40,14 +50,38 @@ public class PlayerCharacter : MonoBehaviour {
         direction = moveInput;
     }
 
+    #endregion
 
-    /* movement logic */
+    public void GameStarted() {
+        ToggleDiggingEffect(true);
+    }
+
+
+    // movement logic 
     void MoveFr() {
         rb.velocity = direction * GamePlayLogic.Instance.basePlayerMovementSpeed * speedMultiplier;
         if (direction == Vector2.zero) {
             rb.velocity = Vector2.zero;
         }
     }
+
+    void ToggleDiggingEffect(bool toggleOn) {
+        diggingEffect.SetActive(toggleOn);
+    }
+
+    void SpawnHoleEffect() {
+        if (!GamePlayLogic.Instance.gameStarted) return;
+    //    if (direction.y > 0) return;
+        if (Time.time >= nextSpawnTime) {
+            spawner.SpawnObjectToMoveWithWall(holeImage, transform.position);
+            nextSpawnTime = Time.time + holeSpawnSpeed;
+        }
+
+    }
+
+
+
+
 
     void PassiveScoreGain() {
         /*

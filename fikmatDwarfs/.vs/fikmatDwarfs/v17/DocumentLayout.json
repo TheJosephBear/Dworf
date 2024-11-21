@@ -1,105 +1,113 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\",
+  "WorkspaceRootPath": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\josef\\documents\\github\\dworf\\fikmatdwarfs\\assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\uis\\uiscripts\\hudui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\uis\\uiscripts\\hudui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\uis\\uiscripts\\hudui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\__player\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\generatedenum\\soundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\generatedenum\\soundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\sceneloadingmanager\\scripts\\sceneloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\sceneloadingmanager\\scripts\\sceneloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\screeneffectmanager\\scripts\\screeneffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\screeneffectmanager\\scripts\\screeneffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\stuffspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\stuffspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameresettingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameresettingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\backgroundmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\backgroundmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\inputmanager\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\stuffspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\stuffspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\ipickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\ipickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\__player\\charactersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\charactersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\startscreenlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\example\\initializers\\mainmenuinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\generatedenum\\soundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\generatedenum\\soundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\audiomanager\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\sceneloadingmanager\\scripts\\sceneloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\sceneloadingmanager\\scripts\\sceneloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\screeneffectmanager\\scripts\\screeneffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\screeneffectmanager\\scripts\\screeneffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameresettingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameresettingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\backgroundmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\backgroundmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\inputmanager\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\josephbear-template\\utilities\\inputmanager\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -110,161 +118,236 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\__Player\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerManager.cs",
               "RelativeToolTip": "Assets\\__Player\\PlayerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T19:24:36.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\__Player\\Player.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Player.cs",
-              "RelativeToolTip": "Assets\\__Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GamePlayLogic.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\GamePlayLogic.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
+              "RelativeToolTip": "Assets\\GamePlayLogic.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAswGUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T19:23:24.304Z"
+              "WhenOpened": "2024-10-26T23:26:02.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "PlayerCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\PlayerCharacter.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
+              "RelativeToolTip": "Assets\\__Player\\PlayerCharacter.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAYwEkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:23:29.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasicBad.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
+              "RelativeDocumentMoniker": "Assets\\BasicBad.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
+              "RelativeToolTip": "Assets\\BasicBad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:07:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasicGood.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicGood.cs",
+              "RelativeDocumentMoniker": "Assets\\BasicGood.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicGood.cs",
+              "RelativeToolTip": "Assets\\BasicGood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:56:12.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StuffSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\StuffSpawner.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
+              "RelativeToolTip": "Assets\\StuffSpawner.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:20:30.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ipickup.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Ipickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Ipickup.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Ipickup.cs",
+              "RelativeToolTip": "Assets\\Ipickup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:13:04.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CharacterSprite.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\CharacterSprite.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\CharacterSprite.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\CharacterSprite.cs",
+              "RelativeToolTip": "Assets\\__Player\\CharacterSprite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:37:46.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PlayerSelectLogic.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerSelectLogic.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerSelectLogic.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerSelectLogic.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerSelectLogic.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerSelectLogic.cs",
               "RelativeToolTip": "Assets\\PlayerSelectLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowD8AAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T15:07:45.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "StartScreenLogic.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StartScreenLogic.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StartScreenLogic.cs",
               "RelativeDocumentMoniker": "Assets\\StartScreenLogic.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StartScreenLogic.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StartScreenLogic.cs",
               "RelativeToolTip": "Assets\\StartScreenLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAjwIcAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:16:53.071Z"
+              "WhenOpened": "2024-10-26T23:16:53.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GamePlayLogic.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\GamePlayLogic.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
-              "RelativeToolTip": "Assets\\GamePlayLogic.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwFQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PickUpObject.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PickUpObject.cs",
+              "RelativeDocumentMoniker": "Assets\\PickUpObject.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PickUpObject.cs",
+              "RelativeToolTip": "Assets\\PickUpObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:26:02.139Z"
+              "WhenOpened": "2024-10-27T13:52:40.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UImanager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
-              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
-              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAA3wFwAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HUDui.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:12:38.84Z"
+              "WhenOpened": "2024-10-27T13:34:05.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "GameOverUI.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameOverUI.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverUI.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameOverUI.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameOverUI.cs",
               "RelativeToolTip": "Assets\\GameOverUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:29:41.347Z"
+              "WhenOpened": "2024-11-19T13:29:41.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Stats.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
-              "RelativeDocumentMoniker": "Assets\\Stats.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
-              "RelativeToolTip": "Assets\\Stats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UImanager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAArwCQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:40:36.78Z"
+              "WhenOpened": "2024-11-19T14:12:38.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainMenuInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
-              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
-              "RelativeToolTip": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBYAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\PlayerController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAADwvw0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T00:11:08.37Z"
+              "WhenOpened": "2024-11-20T22:52:36.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "PlayerObject.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerObject.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerObject.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerObject.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerObject.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerObject.cs",
               "RelativeToolTip": "Assets\\PlayerObject.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAlAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T12:30:14.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
-              "RelativeDocumentMoniker": "Assets\\__Player\\PlayerCharacter.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
-              "RelativeToolTip": "Assets\\__Player\\PlayerCharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T19:23:29.05Z"
+              "WhenOpened": "2024-10-27T12:30:14.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "SceneLoadingManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
-              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
-              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAUwH0AAAAmAAAAAAAAAA==",
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T07:08:56.878Z"
+              "WhenOpened": "2024-10-28T02:23:07.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "SoundType.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
               "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,23 +355,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ThemeManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
-              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvyoAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "SceneLoadingManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAUwH0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T02:23:07.989Z"
+              "WhenOpened": "2024-10-28T07:08:56.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
+              "Title": "MainMenuInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "RelativeToolTip": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:11:08.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
+              "RelativeDocumentMoniker": "Assets\\Stats.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
+              "RelativeToolTip": "Assets\\Stats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:40:36.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
               "ViewState": "AgIAABYAAAAAAAAAAADwvyQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,11 +403,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ScreenEffectManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
               "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAUwEIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,35 +415,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BasicGood.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicGood.cs",
-              "RelativeDocumentMoniker": "Assets\\BasicGood.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicGood.cs",
-              "RelativeToolTip": "Assets\\BasicGood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:56:12.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HUDui.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
-              "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
-              "RelativeToolTip": "Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:34:05.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\PlayerStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,23 +427,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BasicBad.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
-              "RelativeDocumentMoniker": "Assets\\BasicBad.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
-              "RelativeToolTip": "Assets\\BasicBad.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T14:07:28.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "GameResettingManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameResettingManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameResettingManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameResettingManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameResettingManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameResettingManager.cs",
               "RelativeToolTip": "Assets\\GameResettingManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,11 +439,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "BackgroundMoving.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BackgroundMoving.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BackgroundMoving.cs",
               "RelativeDocumentMoniker": "Assets\\BackgroundMoving.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BackgroundMoving.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BackgroundMoving.cs",
               "RelativeToolTip": "Assets\\BackgroundMoving.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwCoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -380,35 +451,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StuffSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\StuffSpawner.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
-              "RelativeToolTip": "Assets\\StuffSpawner.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:20:30.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PickUpObject.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PickUpObject.cs",
-              "RelativeDocumentMoniker": "Assets\\PickUpObject.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PickUpObject.cs",
-              "RelativeToolTip": "Assets\\PickUpObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:52:40.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
-              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
               "RelativeToolTip": "Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAiwEQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

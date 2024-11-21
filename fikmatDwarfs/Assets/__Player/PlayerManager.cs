@@ -90,7 +90,7 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GameOver:
-
+                GamePlayLogic.Instance.ResetGame();
                 break;
         }
 
@@ -111,7 +111,7 @@ public class PlayerManager : Singleton<PlayerManager> {
 
                 break;
             case GameState.GameOver:
-
+                GamePlayLogic.Instance.ResetGame();
                 break;
         }
 

@@ -73,12 +73,15 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     void ActualGameStart() {
+
         backgroundMoving.ToggleMovement(true);
         UImanager.Instance.ShowUI(UIType.HUD);
         HUDui.Instance?.SetScoreOne(0);
         HUDui.Instance?.SetScoreTwo(0);
         GameManager.Instance.ChangeGameState(GameState.GamePlay);
         gameStarted = true;
+        p1Character.GameStarted();
+        p2Character.GameStarted();
     }
 
 
@@ -87,22 +90,22 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     void GameOverCheck() {
         if (!gameStarted) return;
 
-     /*   if (PlayerOne.isDead && PlayerTwo.isDead) {
-            print("yall is dead");
+        if (p1Character.isDead && p2Character.isDead && !gameOver) {
             StartCoroutine(GameOverCoroutine());
-        }*/
+        }
     }
 
     IEnumerator GameOverCoroutine() {
         yield return new WaitForSeconds(.7f);
         gameOver = true;
+        GameManager.Instance.ChangeGameState(GameState.GameOver);   
         // Show try again UI
-        HUDui.Instance.ToggleGameOver(true);
-        HUDui.Instance.ShowEndScore(FindAnyObjectByType<Stats>().GetHighScore(), FindAnyObjectByType<Stats>().GetHigherScore());
+        UImanager.Instance.ShowUI(UIType.GameOverScreen);
+        GameOverUI.Instance.ShowEndScore(FindAnyObjectByType<Stats>().GetHighScore(), FindAnyObjectByType<Stats>().GetHigherScore());
     }
 
     public void ResetGame() {
-        HUDui.Instance.ToggleGameOver(false);
+        UImanager.Instance.HideUI(UIType.GameOverScreen);
         gameOver = false;
         gameStarted = false;
         UImanager.Instance.HideUI(UIType.HUD);
