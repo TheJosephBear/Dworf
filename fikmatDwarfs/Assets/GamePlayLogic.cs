@@ -28,8 +28,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     public bool gameStarted = false;
     public bool gameOver = false;
 
-    PlayerCharacter p1Character;
-    PlayerCharacter p2Character;
+    public PlayerCharacter p1Character;
+    public PlayerCharacter p2Character;
 
 
     protected override void Awake() {

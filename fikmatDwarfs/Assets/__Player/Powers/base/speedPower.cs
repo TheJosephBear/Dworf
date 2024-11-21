@@ -36,12 +36,11 @@ public class speedPower : MonoBehaviour, IbasePower {
 
     IEnumerator CastCoroutine() {
         isPowerActive = true; 
-        float originalMultiplier = characterScript.speedMultiplier;
-        characterScript.speedMultiplier = speedMultiplier;
+     
+        characterScript.GetFast(speedMultiplier, powerDuration);
 
         yield return new WaitForSeconds(powerDuration);
 
-        characterScript.speedMultiplier = originalMultiplier;
         isPowerActive = false; 
     }
 

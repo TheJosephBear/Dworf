@@ -13,11 +13,13 @@ public class Stats : MonoBehaviour {
     }
 
     void UpdateScore() {
-        playerOneScore = PlayerManager.Instance.PlayerOne.score;
-        playerTwoScore = PlayerManager.Instance.PlayerTwo.score;
-        HUDui.Instance?.SetScoreOne(playerOneScore);
-        HUDui.Instance?.SetScoreTwo(playerTwoScore);
-        UpdateHighScore();  // Check if new high score needs updating
+        if (PlayerManager.Instance != null && PlayerManager.Instance.PlayerOne != null && PlayerManager.Instance.PlayerTwo != null) {
+            playerOneScore = PlayerManager.Instance.PlayerOne.score;
+            playerTwoScore = PlayerManager.Instance.PlayerTwo.score;
+            HUDui.Instance?.SetScoreOne(playerOneScore);
+            HUDui.Instance?.SetScoreTwo(playerTwoScore);
+            UpdateHighScore();  // Check if new high score needs updating
+        }
     }
 
     public void IncreaseScore(Player player, int score) {

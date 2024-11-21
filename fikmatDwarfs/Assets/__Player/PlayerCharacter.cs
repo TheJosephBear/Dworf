@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour {
 
+    public int hp = 2;
     public float speedMultiplier = 1f;
     public float allScoreGainMulitplier = 1f;
     public float passiveScoreGainMulitplier = 1f;
@@ -16,17 +17,22 @@ public class PlayerCharacter : MonoBehaviour {
     public Player playerOwner;
 
     Rigidbody2D rb;
+    public bool canControl = true;
     public bool isDead = false;
     Vector2 direction;
     float scoreTimer;
     float nextSpawnTime = 0f;
     StuffSpawner spawner;
 
+    float originalSpeedMultip;
+
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         spawner = FindAnyObjectByType<StuffSpawner>();
         ToggleDiggingEffect(false);
+
+        originalSpeedMultip = speedMultiplier;
     }
 
     void Update() {
@@ -53,6 +59,50 @@ public class PlayerCharacter : MonoBehaviour {
 
     #endregion
 
+
+    #region Power related functions
+
+    // Lose control
+    public void LoseControl(float time) {
+        StartCoroutine(LoseControlCoroutine(time));
+    }
+
+    IEnumerator LoseControlCoroutine(float time) {
+        canControl = false;
+        yield return new WaitForSeconds(time);
+        canControl = true;
+    }
+
+    // Get teleported
+    public void GetTeleported(Vector3 newPosition) {
+        transform.position = newPosition;
+    }
+
+    // Get Slowed
+    public void GetSlowed(float amount, float duration) {
+        StartCoroutine(GetSlowedCoroutine(amount, duration));
+    }
+
+    IEnumerator GetSlowedCoroutine(float amount, float duration) {
+        speedMultiplier = amount;
+        yield return new WaitForSeconds(duration);
+        speedMultiplier = originalSpeedMultip;
+    }
+
+    // Speed up 
+    public void GetFast(float amount, float duration) {
+        StartCoroutine(GetFastCoroutine(amount, duration));
+    }
+
+    IEnumerator GetFastCoroutine(float amount, float duration) {
+        speedMultiplier = amount;
+        yield return new WaitForSeconds(duration);
+        speedMultiplier = originalSpeedMultip;
+    }
+
+    #endregion
+
+
     public void GameStarted() {
         ToggleDiggingEffect(true);
     }
@@ -62,9 +112,9 @@ public class PlayerCharacter : MonoBehaviour {
         playerOwner.SetSpecialPowerSliderValue(GetComponent<IsuperPower>().GetMeterPercent());
     }
 
-
     // movement logic 
     void MoveFr() {
+        if (!canControl) return;
         rb.velocity = direction * GamePlayLogic.Instance.basePlayerMovementSpeed * speedMultiplier;
         if (direction == Vector2.zero) {
             rb.velocity = Vector2.zero;
@@ -101,6 +151,13 @@ public class PlayerCharacter : MonoBehaviour {
         FindAnyObjectByType<Stats>().IncreaseScore(playerOwner, (int)(score * allScoreGainMulitplier));
     }
 
+    public void GetHit(int damage) {
+        hp -= damage;
+        if(hp <= 0 ) {
+            Die();
+        }
+    }
+    
     public void Die() {
         isDead = true;
         gameObject.SetActive(false);

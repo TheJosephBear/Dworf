@@ -3,7 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\slowzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\slowzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\base\\speedpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\base\\speedpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\dworf\\fikmatdwarfs\\assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\super\\losecontrolother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\super\\losecontrolother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\base\\swapplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\base\\swapplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\super\\scoreboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\super\\scoreboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\playerselectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplaylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\base\\speedpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\base\\speedpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\powers\\super\\scoreboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\powers\\super\\scoreboost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\__player\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\audiomanager\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|solutionrelative:assets\\basicbad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98B68F8B-CEBE-5E27-A436-0B92915C8E59}|Assembly-CSharp.csproj|C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\assets\\josephbear-template\\utilities\\uimanager\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,47 +146,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GamePlayLogic.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\GamePlayLogic.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
-              "RelativeToolTip": "Assets\\GamePlayLogic.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAjwGoAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "SlowZone.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\SlowZone.cs",
+              "RelativeDocumentMoniker": "Assets\\SlowZone.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\SlowZone.cs",
+              "RelativeToolTip": "Assets\\SlowZone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:26:02.139Z"
+              "WhenOpened": "2024-11-21T16:46:35.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StuffSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\StuffSpawner.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
-              "RelativeToolTip": "Assets\\StuffSpawner.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAnwCsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:20:30.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "PlayerCharacter.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\__Player\\PlayerCharacter.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerCharacter.cs",
               "RelativeToolTip": "Assets\\__Player\\PlayerCharacter.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwDwAAABDAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwF0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T19:23:29.05Z"
+              "WhenOpened": "2024-11-20T19:23:29.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasicBad.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
+              "RelativeDocumentMoniker": "Assets\\BasicBad.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
+              "RelativeToolTip": "Assets\\BasicBad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:07:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "swapPlaces.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\swapPlaces.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\base\\swapPlaces.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\swapPlaces.cs",
+              "RelativeToolTip": "Assets\\__Player\\Powers\\base\\swapPlaces.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwCwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:09:40.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "scoreBoost.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\scoreBoost.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\super\\scoreBoost.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\scoreBoost.cs",
+              "RelativeToolTip": "Assets\\__Player\\Powers\\super\\scoreBoost.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwCgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:23:27.347Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "speedPower.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\speedPower.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\base\\speedPower.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\speedPower.cs",
+              "RelativeToolTip": "Assets\\__Player\\Powers\\base\\speedPower.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:08:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\GameManager\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\GameManager\\Scripts\\GameManager.cs",
@@ -186,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "StartScreenLogic.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StartScreenLogic.cs",
               "RelativeDocumentMoniker": "Assets\\StartScreenLogic.cs",
@@ -198,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\__Player\\Player.cs",
@@ -210,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PlayerManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\PlayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\__Player\\PlayerManager.cs",
@@ -222,20 +274,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Stats.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Stats.cs",
               "RelativeToolTip": "Assets\\Stats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:40:36.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T13:40:36.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GameResettingManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameResettingManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameResettingManager.cs",
@@ -247,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ThemeManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\ThemeManager.cs",
@@ -259,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\AudioManager.cs",
@@ -271,31 +322,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "speedPower.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\speedPower.cs",
-              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\base\\speedPower.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\base\\speedPower.cs",
-              "RelativeToolTip": "Assets\\__Player\\Powers\\base\\speedPower.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwC8AAAAEAAAA",
+              "DocumentIndex": 4,
+              "Title": "loseControlOther.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\loseControlOther.cs",
+              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\super\\loseControlOther.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\loseControlOther.cs",
+              "RelativeToolTip": "Assets\\__Player\\Powers\\super\\loseControlOther.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:08:21.319Z"
+              "WhenOpened": "2024-11-21T16:20:39.894Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "scoreBoost.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\scoreBoost.cs",
-              "RelativeDocumentMoniker": "Assets\\__Player\\Powers\\super\\scoreBoost.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\Powers\\super\\scoreBoost.cs",
-              "RelativeToolTip": "Assets\\__Player\\Powers\\super\\scoreBoost.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwDUAAAAEAAAA",
+              "Title": "GamePlayLogic.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\GamePlayLogic.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GamePlayLogic.cs",
+              "RelativeToolTip": "Assets\\GamePlayLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:23:27.347Z"
+              "WhenOpened": "2024-10-26T23:26:02.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "PlayerSelectLogic.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerSelectLogic.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerSelectLogic.cs",
@@ -307,7 +358,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
+              "Title": "StuffSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\StuffSpawner.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\StuffSpawner.cs",
+              "RelativeToolTip": "Assets\\StuffSpawner.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAnwCsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:20:30.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "CharacterSprite.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\__Player\\CharacterSprite.cs",
               "RelativeDocumentMoniker": "Assets\\__Player\\CharacterSprite.cs",
@@ -319,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "SceneLoadingManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\SceneLoadingManager\\Scripts\\SceneLoadingManager.cs",
@@ -331,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverUI.cs",
@@ -343,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "HUDui.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\UIs\\UIscripts\\HUDui.cs",
@@ -355,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "PickUpObject.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PickUpObject.cs",
               "RelativeDocumentMoniker": "Assets\\PickUpObject.cs",
@@ -367,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "BasicGood.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicGood.cs",
               "RelativeDocumentMoniker": "Assets\\BasicGood.cs",
@@ -379,19 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BasicBad.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
-              "RelativeDocumentMoniker": "Assets\\BasicBad.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BasicBad.cs",
-              "RelativeToolTip": "Assets\\BasicBad.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T14:07:28.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "UImanager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\UIManager\\Scripts\\UImanager.cs",
@@ -403,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "PlayerObject.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerObject.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerObject.cs",
@@ -415,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Ipickup.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\Ipickup.cs",
               "RelativeDocumentMoniker": "Assets\\Ipickup.cs",
@@ -427,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
@@ -439,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "SoundType.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\AudioManager\\Scripts\\GeneratedEnum\\SoundType.cs",
@@ -451,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "MainMenuInitializer.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Example\\Initializers\\MainMenuInitializer.cs",
@@ -463,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ScreenEffectManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\ScreenEffectManager\\Scripts\\ScreenEffectManager.cs",
@@ -475,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerStats.cs",
@@ -487,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "BackgroundMoving.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\BackgroundMoving.cs",
               "RelativeDocumentMoniker": "Assets\\BackgroundMoving.cs",
@@ -499,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Dworf\\fikmatDwarfs\\Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\JosephBear-Template\\Utilities\\InputManager\\Scripts\\InputManager.cs",

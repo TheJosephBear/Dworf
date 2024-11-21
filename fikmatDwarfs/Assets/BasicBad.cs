@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BasicBad : MonoBehaviour, Ipickup {
 
+    public int damage = 1;
     public GameObject particleEffect;
     public float screenShakeStrength = 10f;
     bool pickedUp = false;
@@ -17,7 +18,7 @@ public class BasicBad : MonoBehaviour, Ipickup {
         AudioManager.Instance.PlaySound(SoundType.BOMBA);
         Instantiate(particleEffect, transform.position, Quaternion.identity);
         ScreenEffectManager.Instance.ScreenShakeImpulse(NoiseSetting.ProfileSixdShake, screenShakeStrength, screenShakeStrength, 0.2f);
-        playerCharacter.Die();
+        playerCharacter.GetHit(damage);
         Destroy(gameObject);
         yield return null;
         // Start slow-motion effect
