@@ -37,7 +37,7 @@ public class SpawnSlower : MonoBehaviour, IbasePower {
     IEnumerator CastCoroutine() {
         isPowerActive = true;
 
-        FindAnyObjectByType<StuffSpawner>().SpawnObjectToMoveWithWall(SlowerGameObject, transform.position + new Vector3(0, 1.5f, 0));
+        FindAnyObjectByType<StuffSpawner>().SpawnObjectToMoveWithWall(SlowerGameObject, transform.position + new Vector3(0, 2f, 0));
 
         yield return new WaitForSeconds(powerDuration);
 

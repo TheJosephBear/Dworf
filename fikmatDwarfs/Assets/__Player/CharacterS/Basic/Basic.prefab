@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6040841796750372322}
   - component: {fileID: 3324852290459477547}
   - component: {fileID: 5380604870162905742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Basic
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -50,16 +50,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a8c28a1221b94c4fa56732c01341499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMultiplier: 1
+  hp: 2
+  speedMultiplier: 1.5
   allScoreGainMulitplier: 1
   passiveScoreGainMulitplier: 1
   passiveScoreGainSpeed: 0.1
+  holeSpawnSpeed: 0.05
   characterSelectSprite: {fileID: 4290696227643047576, guid: 6e50882343248174db23dea7dd6749f2, type: 3}
   diggingEffect: {fileID: 2460785681821549153}
   holeImage: {fileID: 306860746567958426, guid: 37c9d8b97464b0946bdd9a85f378fad4, type: 3}
-  holeSpawnSpeed: 0.05
+  shieldEffectGameObject: {fileID: 5579492571061995172, guid: e6752c0caae669e4c90c39b7bf8765bd, type: 3}
+  fastEffectGameObject: {fileID: 45204259533611984, guid: 4ac6abe21d0b5b74482e5d2010214f25, type: 3}
+  slowEffectGameObject: {fileID: 3030107544119253543, guid: eaa8e11af62e5e8488928fb24a96bb04, type: 3}
+  loseControlEffectGameObject: {fileID: 2486240307207780628, guid: ba9e871daa9b67b45bbedc3cce7748f3, type: 3}
+  scoreStolenEffectGameObject: {fileID: 2999933013664560305, guid: 51dc00dd304272f4ab7c3fdcaac79f0c, type: 3}
+  teleportedEffectGameObject: {fileID: 6916069558920473154, guid: d2814fdc37763474da386f6081793f2e, type: 3}
+  moneyMakerEffectGameObject: {fileID: 45204259533611984, guid: 97b6ce210ea4f6e44ac6e605deacc6a8, type: 3}
   playerOwner: {fileID: 0}
+  canControl: 1
   isDead: 0
+  direction: {x: 0, y: 0}
 --- !u!61 &2245365339622956840
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -99,7 +109,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}

@@ -124,6 +124,10 @@
     <Compile Include="Assets\__Player\Powers\super\loseControlOther.cs" />
     <Compile Include="Assets\SlowZone.cs" />
     <Compile Include="Assets\__Player\Powers\base\SpawnSlower.cs" />
+    <Compile Include="Assets\__Player\Powers\super\biteMode.cs" />
+    <Compile Include="Assets\__Player\Powers\base\bomb\ThrowBomb.cs" />
+    <Compile Include="Assets\ForceBomb.cs" />
+    <Compile Include="Assets\__Player\Powers\super\shield.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

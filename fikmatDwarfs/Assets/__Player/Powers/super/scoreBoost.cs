@@ -37,16 +37,9 @@ public class scoreBoost : MonoBehaviour, IsuperPower {
     IEnumerator CastCoroutine() {
         isPowerActive = true;
 
-        float originalMultiplier = characterScript.passiveScoreGainMulitplier;
-        float originalAllScoreMultip = characterScript.allScoreGainMulitplier;
-
-        characterScript.passiveScoreGainMulitplier = scoreMultiplier;
-        characterScript.allScoreGainMulitplier = scoreMultiplier;
+        characterScript.GetScoreGainUp(powerDuration, scoreMultiplier);
 
         yield return new WaitForSeconds(powerDuration);
-
-        characterScript.speedMultiplier = originalMultiplier;
-        characterScript.allScoreGainMulitplier = originalAllScoreMultip;
 
         isPowerActive = false;
     }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2877910133748067770}
   - component: {fileID: 2877910133748067771}
   - component: {fileID: 2877910133748067751}
+  - component: {fileID: 1588605373529315473}
   m_Layer: 3
   m_Name: Gold 2
   m_TagString: Untagged
@@ -140,3 +141,24 @@ MonoBehaviour:
   ScoreAmountGained: 10
   particleEffect: {fileID: 584147184464042323, guid: 88d9d83de1103bb4ebd3621a3c83f5c2, type: 3}
   screenShakeStrength: 0
+--- !u!50 &1588605373529315473
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2877910133748067772}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
