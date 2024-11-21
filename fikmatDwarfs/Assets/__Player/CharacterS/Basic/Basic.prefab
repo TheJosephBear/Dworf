@@ -51,12 +51,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 1
+  allScoreGainMulitplier: 1
   passiveScoreGainMulitplier: 1
   passiveScoreGainSpeed: 0.1
   characterSelectSprite: {fileID: 4290696227643047576, guid: 6e50882343248174db23dea7dd6749f2, type: 3}
   diggingEffect: {fileID: 2460785681821549153}
   holeImage: {fileID: 306860746567958426, guid: 37c9d8b97464b0946bdd9a85f378fad4, type: 3}
-  holeSpawnSpeed: 0.1
+  holeSpawnSpeed: 0.05
   playerOwner: {fileID: 0}
   isDead: 0
 --- !u!61 &2245365339622956840

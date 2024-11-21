@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
@@ -59,11 +60,15 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
             PlayerOneObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerOne.PlayerCharacter.gameObject, PlayerOneSpawn.position, SceneType.MainMenu);
             p1Character = PlayerOneObject.GetComponent<PlayerCharacter>();
             p1Character.playerOwner = PlayerManager.Instance.PlayerOne;
+        } else {
+            p1Character = null;
         }
         if (FindAnyObjectByType<StartScreenLogic>().playerTwoJoined) {
             PlayerTwoObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerTwo.PlayerCharacter.gameObject, PlayerTwoSpawn.position, SceneType.MainMenu);
             p2Character = PlayerTwoObject.GetComponent<PlayerCharacter>();
             p2Character.playerOwner = PlayerManager.Instance.PlayerTwo;
+        } else {
+            p2Character = null;
         }
     }
 
@@ -95,7 +100,11 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     void GameOverCheck() {
         if (!gameStarted) return;
         if (gameOver) return;
-        if ((p2Character != null && p1Character == null && p2Character.isDead) || (p1Character != null && p2Character == null && p1Character.isDead) || (p1Character.isDead && p2Character.isDead)) {
+        if ((p2Character != null && p1Character == null && p2Character.isDead) 
+            || 
+            (p1Character != null && p2Character == null && p1Character.isDead) 
+            || 
+            (p2Character != null && p1Character != null && p1Character.isDead && p2Character.isDead)) {
             StartCoroutine(GameOverCoroutine());
         }
     }
@@ -113,6 +122,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
 
     public void ResetGame() {
         print("Reset game called");
+        Destroy(p1Character);
+        Destroy(p2Character);
         GameManager.Instance.ChangeGameState(GameState.ButtonIsPushed);
         UImanager.Instance.HideUI(UIType.GameOverScreen);
         gameOver = false;
