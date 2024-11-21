@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
-using DG.Tweening;
 
 public class StartScreenLogic : MonoBehaviour {
 
@@ -16,8 +15,8 @@ public class StartScreenLogic : MonoBehaviour {
     public TextMeshProUGUI countdownText;
     public Vector3 CameraAnimationTarget;
 
-    private bool playerOneJoined = false;
-    private bool playerTwoJoined = false;
+    public bool playerOneJoined = false;
+    public bool playerTwoJoined = false;
     public float countdownTime = 5f; // Countdown in seconds
     private Coroutine countdownCoroutine;
     private Coroutine introAnimCoroutine;

@@ -7,8 +7,6 @@ public class GameOverUI : UIBehaviour {
 
     public static GameOverUI Instance { get; private set; }
 
-    public TextMeshProUGUI scoreOne;
-    public TextMeshProUGUI scoreTwo;
     public TextMeshProUGUI endScoreHigh;
     public TextMeshProUGUI endScoreYou;
 
@@ -27,12 +25,6 @@ public class GameOverUI : UIBehaviour {
 
     public override void Show() {
         canvas.SetActive(true);
-    }
-    public void SetScoreOne(int score) {
-        scoreOne.text = score.ToString();
-    }
-    public void SetScoreTwo(int score) {
-        scoreTwo.text = score.ToString();
     }
 
     public void ShowEndScore(int high, int you) {

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HUDui : UIBehaviour {
     public static HUDui Instance { get; private set; }
@@ -10,6 +11,11 @@ public class HUDui : UIBehaviour {
     public TextMeshProUGUI scoreTwo;
     public TextMeshProUGUI endScoreHigh;
     public TextMeshProUGUI endScoreYou;
+
+    public Slider p1BaseSlider;
+    public Slider p1SuperSlider;
+    public Slider p2BaseSlider;
+    public Slider p2SuperSlider;
 
     public GameObject gameOverScreen;
 

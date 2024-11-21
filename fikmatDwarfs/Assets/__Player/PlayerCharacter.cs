@@ -6,10 +6,9 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour {
 
     public float speedMultiplier = 1f;
-    public float basePowerMeterMax = 1f;
-    public float basePowerMeterRegen = 1f;
-    public float specialPowerMeterMax = 1f;
-    public float specialPowerMeterRegen = 1f;
+    public float allScoreGainMulitplier = 1f;
+    public float passiveScoreGainMulitplier = 1f;
+    public float passiveScoreGainSpeed = 1f;
     public GameObject characterSelectSprite;
     public GameObject diggingEffect; // Permanently at the bottom of the character while digging
     public GameObject holeImage; // hole left behind while digging
@@ -18,7 +17,8 @@ public class PlayerCharacter : MonoBehaviour {
 
     Rigidbody2D rb;
     public bool isDead = false;
-    Vector2 direction; 
+    Vector2 direction;
+    float scoreTimer;
     float nextSpawnTime = 0f;
     StuffSpawner spawner;
 
@@ -34,16 +34,17 @@ public class PlayerCharacter : MonoBehaviour {
         MoveFr();
         PassiveScoreGain();
         SpawnHoleEffect();
+        UpdatePowerSliders();
     }
 
     #region INPUT public functions
 
     public void CastBasePower() {
-
+        GetComponent<IbasePower>()?.Cast();
     }
 
     public void CastSpecialPower() {
-
+        GetComponent<IsuperPower>()?.Cast();
     }
 
     public void Move(Vector2 moveInput) {
@@ -54,6 +55,11 @@ public class PlayerCharacter : MonoBehaviour {
 
     public void GameStarted() {
         ToggleDiggingEffect(true);
+    }
+
+    void UpdatePowerSliders() {
+        playerOwner.SetBasePowerSliderValue(GetComponent<IbasePower>().GetMeterPercent());
+        playerOwner.SetSpecialPowerSliderValue(GetComponent<IsuperPower>().GetMeterPercent());
     }
 
 
@@ -84,17 +90,15 @@ public class PlayerCharacter : MonoBehaviour {
 
 
     void PassiveScoreGain() {
-        /*
         scoreTimer += Time.deltaTime;
-        if (scoreTimer >= stats.passive_score_gain_speed) {
-            FindAnyObjectByType<Stats>().IncreaseScore(PlayerOne, 1);
+        if (scoreTimer >= passiveScoreGainSpeed) {
+            GainScore((int)(1* passiveScoreGainMulitplier));
             scoreTimer = 0f;
         }
-        */
     }
 
     public void GainScore(int score) {
-        //    FindAnyObjectByType<Stats>().IncreaseScore(PlayerOne, score);
+        FindAnyObjectByType<Stats>().IncreaseScore(playerOwner, (int)(score * allScoreGainMulitplier));
     }
 
     public void Die() {

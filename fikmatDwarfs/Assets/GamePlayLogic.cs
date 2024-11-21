@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class GamePlayLogic : Singleton<GamePlayLogic> {
 
@@ -40,6 +41,7 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
         GameOverCheck();
     }
 
+
     public void StartGame() {
         GameManager.Instance.ChangeGameState(GameState.GamePlay); // delete this...
         // Has to instantialize the players
@@ -54,20 +56,23 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
     }
 
     void CreatePlayerCharacters() {
-        PlayerOneObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerOne.PlayerCharacter.gameObject, PlayerOneSpawn.position, SceneType.MainMenu);
-        PlayerTwoObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerTwo.PlayerCharacter.gameObject, PlayerTwoSpawn.position, SceneType.MainMenu);
-        p1Character = PlayerOneObject.GetComponent<PlayerCharacter>();
-        p2Character = PlayerTwoObject.GetComponent<PlayerCharacter>();
-
-        p1Character.playerOwner = PlayerManager.Instance.PlayerOne;
-        p2Character.playerOwner = PlayerManager.Instance.PlayerTwo;
+        if (FindAnyObjectByType<StartScreenLogic>().playerOneJoined) {
+            PlayerOneObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerOne.PlayerCharacter.gameObject, PlayerOneSpawn.position, SceneType.MainMenu);
+            p1Character = PlayerOneObject.GetComponent<PlayerCharacter>();
+            p1Character.playerOwner = PlayerManager.Instance.PlayerOne;
+        }
+        if (FindAnyObjectByType<StartScreenLogic>().playerTwoJoined) {
+            PlayerTwoObject = SceneLoadingManager.Instance.InstantiateObjectInScene(PlayerManager.Instance.PlayerTwo.PlayerCharacter.gameObject, PlayerTwoSpawn.position, SceneType.MainMenu);
+            p2Character = PlayerTwoObject.GetComponent<PlayerCharacter>();
+            p2Character.playerOwner = PlayerManager.Instance.PlayerTwo;
+        }
     }
 
     IEnumerator PlayIntroCutscene() {
         ThemeManager.Instance.StopAllThemes(true, 2f);
         ThemeManager.Instance.PlayTheme(SoundType.main_theme, true, 1f);
-        PlayerOneObject.transform.DOMoveY(PlayerOneSpawn.position.y - 5f, introCutsceneSpeed);
-        PlayerTwoObject.transform.DOMoveY(PlayerTwoSpawn.position.y - 5f, introCutsceneSpeed);
+        if (PlayerOneObject != null) PlayerOneObject?.transform.DOMoveY(PlayerOneSpawn.position.y - 5f, introCutsceneSpeed);
+        if(PlayerTwoObject!=null) PlayerTwoObject.transform.DOMoveY(PlayerTwoSpawn.position.y - 5f, introCutsceneSpeed);
         yield return new WaitForSeconds(introCutsceneSpeed);
         ActualGameStart();
     }
@@ -80,8 +85,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
         HUDui.Instance?.SetScoreTwo(0);
         GameManager.Instance.ChangeGameState(GameState.GamePlay);
         gameStarted = true;
-        p1Character.GameStarted();
-        p2Character.GameStarted();
+        p1Character?.GameStarted();
+        p2Character?.GameStarted();
     }
 
 
@@ -89,8 +94,8 @@ public class GamePlayLogic : Singleton<GamePlayLogic> {
 
     void GameOverCheck() {
         if (!gameStarted) return;
-
-        if (p1Character.isDead && p2Character.isDead && !gameOver) {
+        if (gameOver) return;
+        if ((p2Character != null && p1Character == null && p2Character.isDead) || (p1Character != null && p2Character == null && p1Character.isDead) || (p1Character.isDead && p2Character.isDead)) {
             StartCoroutine(GameOverCoroutine());
         }
     }

@@ -19,6 +19,7 @@ public class GameInitializer : MonoBehaviour {
 
     // What happens after the game is turned on
     void InitializeGame() {
+        Screen.SetResolution(1280, 1024, FullScreenMode.FullScreenWindow, 60);
         StartCoroutine(LoadUtilitiesAndInitializeGame());
     }
 

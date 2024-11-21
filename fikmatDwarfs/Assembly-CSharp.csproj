@@ -116,6 +116,10 @@
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Settings.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\Sound.cs" />
     <Compile Include="Assets\__Player\PlayerCharacter.cs" />
+    <Compile Include="Assets\__Player\Powers\interface\IbasePower.cs" />
+    <Compile Include="Assets\__Player\Powers\interface\IsuperPower.cs" />
+    <Compile Include="Assets\__Player\Powers\base\speedPower.cs" />
+    <Compile Include="Assets\__Player\Powers\super\scoreBoost.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
