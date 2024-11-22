@@ -62,6 +62,8 @@
     <Compile Include="Assets\BasicBad.cs" />
     <Compile Include="Assets\__Player\PlayerManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\Observer\IObserver.cs" />
+    <Compile Include="Assets\SlowZone.cs" />
+    <Compile Include="Assets\ForceBomb.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\SoundBoardEditor.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\ScreenEffectManager\Scripts\ScreenEffectManager.cs" />
     <Compile Include="Assets\__Player\CharacterSprite.cs" />
@@ -76,10 +78,13 @@
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\AlertUI.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\InputManager\Scripts\InputManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SceneLoadingManager\Scripts\SceneListEditor.cs" />
+    <Compile Include="Assets\__Player\Powers\super\shield.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\UIManager\Scripts\UImanager.cs" />
+    <Compile Include="Assets\__Player\Powers\super\loseControlOther.cs" />
     <Compile Include="Assets\Ipickup.cs" />
     <Compile Include="Assets\StartScreenLogic.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SaveManager\Scripts\ISaveable.cs" />
+    <Compile Include="Assets\__Player\Powers\base\bomb\ThrowBomb.cs" />
     <Compile Include="Assets\_Debuger\sceneDebugger.cs" />
     <Compile Include="Assets\__Player\Powers\base\speedPower.cs" />
     <Compile Include="Assets\PlayerStats.cs" />
@@ -89,6 +94,7 @@
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\ThemeManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Example\Initializers\GameInitializer.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SaveManager\Scripts\GameData.cs" />
+    <Compile Include="Assets\__Player\Powers\base\SpawnSlower.cs" />
     <Compile Include="Assets\BackgroundMoving.cs" />
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\MainMenu.cs" />
     <Compile Include="Assets\GamePlayLogic.cs" />
@@ -112,7 +118,9 @@
     <Compile Include="Assets\PickUpObject.cs" />
     <Compile Include="Assets\PlayerSelectLogic.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\AudioPauseManager.cs" />
+    <Compile Include="Assets\__Player\Powers\super\biteMode.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\GameManager\Scripts\GameManager.cs" />
+    <Compile Include="Assets\__Player\Powers\base\swapPlaces.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\SceneLoadingManager\Scripts\SceneLoadingManager.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\UtilityUI.cs" />
     <Compile Include="Assets\SceneType.cs" />
@@ -120,14 +128,6 @@
     <Compile Include="Assets\JosephBear-Template\UIs\UIscripts\Settings.cs" />
     <Compile Include="Assets\JosephBear-Template\Utilities\AudioManager\Scripts\Sound.cs" />
     <Compile Include="Assets\__Player\PlayerCharacter.cs" />
-    <Compile Include="Assets\__Player\Powers\base\swapPlaces.cs" />
-    <Compile Include="Assets\__Player\Powers\super\loseControlOther.cs" />
-    <Compile Include="Assets\SlowZone.cs" />
-    <Compile Include="Assets\__Player\Powers\base\SpawnSlower.cs" />
-    <Compile Include="Assets\__Player\Powers\super\biteMode.cs" />
-    <Compile Include="Assets\__Player\Powers\base\bomb\ThrowBomb.cs" />
-    <Compile Include="Assets\ForceBomb.cs" />
-    <Compile Include="Assets\__Player\Powers\super\shield.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -83,7 +83,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10734755, y: -0.07065034}
+  m_Offset: {x: 0.22477469, y: 0.09896684}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -94,7 +94,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2146951, y: 1.9660993}
+  m_Size: {x: 0.9798408, y: 1.6268649}
   m_EdgeRadius: 0
 --- !u!50 &4753568364571843286
 Rigidbody2D:
@@ -219,10 +219,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SelectSpriteFeral
       objectReference: {fileID: 0}
-    - target: {fileID: 4255906865767362369, guid: 87aa86d489fdc754fb18d801c4b66e82, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f22c4283606fc9d49a3d438b26cd16cc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87aa86d489fdc754fb18d801c4b66e82, type: 3}
 --- !u!4 &3144403753269283706 stripped
